@@ -1,2 +1,2 @@
-# yashinatsu.github.io
+# frankcharlesagliam.github.io
 My personal website.
