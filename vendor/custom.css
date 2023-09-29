@@ -9,8 +9,7 @@ header.header {
 }
 section.page {
 	padding: 100px 0;
-}
-.projects {
+} .page.projects {
 	background-color: #9AC791 !important;
 }
 footer.footer {
