@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-bs-theme="dark" lang="en">
 
 <head>
 
@@ -8,58 +8,167 @@
     <link rel="icon" href="img/me.jpg" sizes="64x64" type="image/jpeg">
     <meta name="description" content="Official website of Frank Charles Agliam.">
     <meta name="author" content="Frank Charles Agliam">
-    <meta name="p:domain_verify" content="f9c246e75eb1b9527d3d2ba0a53fdef7"/>
+    <meta name="p:domain_verify" content="f9c246e75eb1b9527d3d2ba0a53fdef7" />
 
     <title>Frank Charles Agliam</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="vendor/custom.css" rel="stylesheet">
 </head>
 
-<body class="bg-dark text-white">
+<body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark static-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img style="border-radius:50%;" class="circ" src="img/me.jpg" width="50" alt="yashi_logo" title="yashi" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">冉</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gaming.html">Gaming</a>
+                        <a class="nav-link" href="#contentcreation">Content Creation</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Page Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="mt-5">Frank Charles Agliam</h1>
-                <p class="lead">pls don't judge my personal website</p>
-                <ul class="list-unstyled">
-                    <li class="list-inline-item"><a href="https://www.instagram.com/ohceeran/" target="_blank"><img src="https://i.imgur.com/YT60YFn.png" class="logo" title="Instagram" alt="instagram" /></a></li>
-                    <li class="list-inline-item"><a href="https://lemmy.world/u/ongran88" target="_blank"><img src="https://i.imgur.com/By8obXP.png" class="logo" title="Lemmy" alt="lemmy" /></a></li>
-                    <li class="list-inline-item"><a rel="me" href="https://mastodon.social/@dakilangnilalang" target="_blank"><img src="https://i.imgur.com/6MV9ol0.png" class="logo" title="Mastodon" alt="mastodon" /></a></li>
-                    <li class="list-inline-item"><a href="https://forum.xda-developers.com/member.php?u=7156864" target="_blank"><img src="https://i.imgur.com/5QZanAA.png" class="logo" title="XDA Profile" alt="xda" /></a></li>
-                    <li class="list-inline-item"><a href="https://www.paypal.me/ohCran/" target="_blank"><img src="https://i.imgur.com/qyYhRHo.png" class="logo" title="Paypal" alt="paypal" /></a></li>
-                </ul>
+    <!-- Home -->
+    <header class="home bg-dark text-white text-center">
+        <div class="container">
+            <div class="text-center">
+                <img class="logo" src="img/me.jpg" alt="yashi_logo" title="yashi" />
+                <h1 class="mt-3">Frank Charles Agliam</h1>
+                <p class="lead">welcome to my unsolicited haven</p>
+                <div class="row">
+                    <ul class="list-unstyled">
+                        <li class="list-inline-item"><a href="https://www.instagram.com/ohceeran/" target="_blank"><img
+                                    src="https://i.imgur.com/YT60YFn.png" class="logo" title="Instagram"
+                                    alt="instagram" /></a></li>
+                        <li class="list-inline-item"><a href="https://lemmy.world/u/ongran88" target="_blank"><img
+                                    src="https://i.imgur.com/By8obXP.png" class="logo" title="Lemmy" alt="lemmy" /></a>
+                        </li>
+                        <li class="list-inline-item"><a rel="me" href="https://mastodon.social/@dakilangnilalang"
+                                target="_blank"><img src="https://i.imgur.com/6MV9ol0.png" class="logo" title="Mastodon"
+                                    alt="mastodon" /></a></li>
+                        <li class="list-inline-item"><a href="https://forum.xda-developers.com/member.php?u=7156864"
+                                target="_blank"><img src="https://i.imgur.com/5QZanAA.png" class="logo"
+                                    title="XDA Profile" alt="xda" /></a></li>
+                        <li class="list-inline-item"><a href="https://www.paypal.me/ohCran/" target="_blank"><img
+                                    src="https://i.imgur.com/qyYhRHo.png" class="logo" title="Paypal"
+                                    alt="paypal" /></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
+    </header>
+
+    <!-- Projects -->
+    <section class="page projects" id="projects">
+        <div class="container mx-auto">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h1 class="mt-3">Projects</h1>
+                    <hr />
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mx-auto text-center">
+            <div class="row row-cols-3 g-3">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header text-center">Healthy Lifestyle</div>
+                        <a class="stretched-link" href="https://frankcharlesagliam.github.io/Healthy-Lifestyle/"
+                            target="_blank"><img class="card-img-top" src="img/healthylifestyle.png"
+                                alt="Pink Museum logo"></a>
+                        <div class="card-body">
+                            <p class="card-text">what we do for "being well".</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">Pink Museum</div>
+                        <a class="stretched-link" href="https://pinkmuseum.wordpress.com" target="_blank"><img
+                                class="card-img-top" src="img/pinkmuseum.png" alt="Pink Museum logo"></a>
+                        <div class="card-body">
+                            <p class="card-text">all things sexual orientaion and gender expressions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">JRU JHS CAT/COCC</div>
+                        <a class="stretched-link" href="https://sites.google.com/my.jru.edu/jrujhscatcocc2021/home"
+                            target="_blank"><img class="card-img-top" src="img/CAT_COCC.png" alt="CAT/COCC logo"></a>
+                        <div class="card-body">
+                            <p class="card-text">official website for CAT/COCC batch 2021.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">EcoWAR</div>
+                        <a class="stretched-link" href="https://frankcharlesagliam.github.io/ecoWAR/"
+                            target="_blank"><img class="card-img-top" src="img/ecowar.png" alt="ecoWAR logo"></a>
+                        <div class="card-body">
+                            <p class="card-text">where we strive to keep our environment healthy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">Coming soon.</div>
+                        <img class="card-img-top" src="img/na.jpeg" alt="none logo">
+                        <div class="card-body">
+                            <p class="card-text">more projects will be available for public soon.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page" id="contentcreation">
+        <div class="container mx-auto">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h1 class="mt-3">Content Creation</h1>
+                </div>
+            </div>
+            <hr />
+            <div class="card text-center">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Latest Video</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/j8HDn1lJc0A"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body></html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
